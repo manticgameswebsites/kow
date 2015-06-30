@@ -2,7 +2,7 @@ html {background: #cbab6e url(/kow/img/kow2.jpg) top center;}
 
 body {background: url(/kow/img/kow3.jpg) top center no-repeat; min-height: 1200px;}
 
-footer {background: black; margin-top: 80px; padding: 2em 0 2em; position: absolute; bottom: 0; width: 100%;}
+footer {background: black; margin-top: 80px; padding: 2em 0 2em;}
 
 .post {
 
