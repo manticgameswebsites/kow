@@ -1,0 +1,33 @@
+html {background: #cbab6e url(/img/kow2.jpg) top center;}
+
+body {background: url(/img/kow3.jpg) top center no-repeat; min-height: 1200px;}
+
+footer {background: black; margin-top: 80px; padding: 2em 0 2em; position: absolute; bottom: 0; width: 100%;}
+
+.post {
+
+    background: rgba(255,255,255,0.8);
+    padding-bottom: 3em;
+
+}
+
+#call-to-action {margin-bottom: 2em;}
+
+#call-to-action .cta {background-color: rgba(188,188,188,0.8); padding-bottom: 1em;}
+
+#call-to-action .cta h5 {font-weight: bold; font-size: 24px; text-align: center;}
+
+#armies {width: 95%;}
+
+#armies .row {margin-bottom: 1em;}
+
+#armies > div {
+
+    text-align: center;
+    min-height: 180px;
+    background: red;
+
+}
+
+#video {background-color: rgba(0,0,0,0.8);}
+#video video {margin: 1em auto; display: block;}

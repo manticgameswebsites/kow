@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container" id="main">
+
+      <div class="row" id="call-to-action">
+	<div class="col-md-4 cta">
+	  <h5>It's Time For War</h5>
+	  
+<p>Kings of War is the game of fantasy battles fought between mighty armies. Build and collect an army of miniatures and take part in epic conflicts and legendary battles across a fantasy realm.</p>
+
+<a href="#" class="btn  btn-success btn-block">Find out more</a>
+	</div>
+
+	<div class="col-md-4 cta">
+	  <h5>Through The Ages</h5>
+
+	  <p>An ancient fantasy realm beset by war, choose your army, gather your forces and unleash them on the world. Will you be a force for good, or will you lead the forces of darkness?</p>
+	  <a href="#" class="btn  btn-success btn-block">Discover</a>
+	</div>
+
+	<div class="col-md-4 cta">
+	  <h5>The Barracks</h5>
+
+	  <p>Join fantastic, fanatical generals from around the world. Get top tips and tactics on our forum, check out the awesomely painted miniatures in the Gallery and join in with all the latest updates on Socal media!</p>
+	  
+	  <a href="#" class="btn  btn-success btn-block">Join In</a>
+	</div>
+      </div>
+
+      <div class="row">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
